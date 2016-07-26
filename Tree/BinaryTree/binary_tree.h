@@ -8,7 +8,7 @@ typedef struct Node
 	Elemtype data;
 	struct Node* lchild;
 	struct Node* rchild;
-}*pNode;
+}Node, *pNode;
 
 //extern int CreateBiTree(struct Node** T, Elemtype* edata);
 extern int CreateBiTree(struct Node** T, FILE* fp);
